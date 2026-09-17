@@ -1,0 +1,17 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm mb-4">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="<%= ctx %>/">
+            <i class="bi bi-music-note-beamed fs-4"></i>
+            <strong>Recomendador Musical</strong>
+        </a>
+        <div class="d-flex gap-2">
+            <a href="<%= ctx %>/" class="btn btn-outline-light btn-sm">
+                <i class="bi bi-house-door"></i> Home
+            </a>
+            <a href="<%= ctx %>/cadastrar" class="btn btn-light btn-sm text-primary">
+                <i class="bi bi-plus-circle"></i> Novo usuário
+            </a>
+        </div>
+    </div>
+</nav>

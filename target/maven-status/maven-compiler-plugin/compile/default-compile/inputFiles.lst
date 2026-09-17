@@ -1,0 +1,12 @@
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/infrastructure/client/SocketClientService.java
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/infrastructure/server/ServidorTCP.java
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/infrastructure/server/ClientHandler.java
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/model/application/GerenciadorDados.java
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/controller/CadastroUsuario.java
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/controller/Recomendacao.java
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/model/application/CalculoRecomendacao.java
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/model/domain/Artista.java
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/model/domain/Usuario.java
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/infrastructure/protocol/Protocolo.java
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/controller/Home.java
+/home/fernanda/Documentos/SistemasDistribuidos/sistemadenotas/src/main/java/controller/EditarAvalicao.java

@@ -1,0 +1,92 @@
+/* ---------- Pílulas de avaliação (0 a 4) ---------- */
+.rating-group { display: flex; gap: .35rem; }
+.rating-group input { display: none; }
+.rating-group label { cursor: pointer; margin: 0; }
+.rating-group .pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid #dee2e6;
+    color: #6c757d;
+    font-weight: 600;
+    font-size: .85rem;
+    transition: all .15s ease;
+    user-select: none;
+}
+.rating-group label:hover .pill {
+    border-color: #6366f1;
+    color: #6366f1;
+    transform: scale(1.08);
+}
+.rating-group input:checked + .pill {
+    color: #fff;
+    border-color: transparent;
+    transform: scale(1.1);
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+}
+.rating-group input[value="0"]:checked + .pill { background: #94a3b8; }
+.rating-group input[value="1"]:checked + .pill { background: #ef4444; }
+.rating-group input[value="2"]:checked + .pill { background: #f59e0b; }
+.rating-group input[value="3"]:checked + .pill { background: #84cc16; }
+.rating-group input[value="4"]:checked + .pill { background: #22c55e; }
+
+/* ---------- Legenda ---------- */
+.legend-dot {
+    display: inline-block;
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    margin-right: .35rem;
+    vertical-align: middle;
+}
+.dot-0 { background: #94a3b8; }
+.dot-1 { background: #ef4444; }
+.dot-2 { background: #f59e0b; }
+.dot-3 { background: #84cc16; }
+.dot-4 { background: #22c55e; }
+
+/* ---------- Lista de artistas no formulário ---------- */
+.artist-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .65rem 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+.artist-row:last-child { border-bottom: none; }
+.artist-row .artist-name { font-weight: 500; }
+
+/* ---------- Recomendações ---------- */
+.recomendacao-item {
+    background: linear-gradient(90deg, #eef2ff, #f5f3ff);
+    border-left: 4px solid #6366f1;
+    border-radius: .5rem;
+    padding: .85rem 1.1rem;
+    margin-bottom: .65rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+    animation: fadeIn .35s ease;
+}
+.recomendacao-item i { color: #6366f1; font-size: 1.1rem; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Avatar de iniciais na listagem ---------- */
+.user-avatar {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    font-size: .9rem;
+}

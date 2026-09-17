@@ -1,0 +1,12 @@
+controller/Recomendacao.class
+infrastructure/client/SocketClientService.class
+infrastructure/server/ServidorTCP.class
+model/domain/Usuario.class
+infrastructure/protocol/Protocolo.class
+controller/EditarAvalicao.class
+infrastructure/server/ClientHandler.class
+controller/CadastroUsuario.class
+model/application/CalculoRecomendacao.class
+model/domain/Artista.class
+model/application/GerenciadorDados.class
+controller/Home.class
